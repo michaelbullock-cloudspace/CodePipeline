@@ -26,6 +26,5 @@ phases:
 
 artifacts:
   files:
-    - '**/*' # Grab all files and zip them
-    name: builtartifact-for-2stage-build-$(date +%Y-%m-%d)
-
+    - "**/*"
+  name: builtartifact-for-2stage-build-$(date +%Y-%m-%d)
